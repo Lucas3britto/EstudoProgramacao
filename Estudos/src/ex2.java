@@ -1,11 +1,10 @@
 import java.util.Scanner;
-
 public class ex2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a=0;
+        int a;
         
-        System.out.printf("Digite um número: ");
+        System.out.println("Digite um número: ");
         a = sc.nextInt();
         
         if (a>20){
